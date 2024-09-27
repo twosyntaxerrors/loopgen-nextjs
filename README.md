@@ -1,8 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# LOOPGEN - AI-Powered Audio Generation Platform
+
+![LOOPGEN Landing Page](/Loopgen-Landing.png)
+
+LOOPGEN is a cutting-edge web application that leverages AI technology to generate custom audio samples, loops, and sounds. Built with Next.js, this platform offers a user-friendly interface for creating unique audio content for music production, sound design, and more.
+
+## Project Overview
+
+LOOPGEN allows users to:
+
+- Generate one-shots, drum loops, melodic samples, and various sounds using text prompts
+- Explore AI-generated audio for music production, sound design, film & TV, and game audio
+- Access a comprehensive library of AI-created sounds and loops
+- Utilize advanced AI models for audio generation
+
+Key features include:
+
+- Text-to-audio generation
+- Customizable sound creation
+- Extensive sound library
+- User-friendly interface
+- Secure user authentication
+- Cloud storage for user-generated content
 
 ## Getting Started
 
-First, run the development server:
+To run the development server:
 
 ```bash
 npm run dev
@@ -14,23 +36,48 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the application in action.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- `src/app/(landing)/page.tsx`: Contains the main landing page component
+- `src/components/LoopgenInterface.tsx`: Implements the core LOOPGEN interface
+- Other components in `src/components/`: UI elements and features
+
+## Technologies Used
+
+- Next.js for the frontend framework
+- React for building user interfaces
+- TypeScript for type-safe code
+- Tailwind CSS for styling
+- Radix UI for accessible component primitives
+- ElevenLabs API for generating sound effects
+- Clerk for user authentication
+- Firebase for database and storage
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about the technologies used in this project:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs)
+- [React Documentation](https://reactjs.org/)
+- [TypeScript Documentation](https://www.typescriptlang.org/docs/)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [Radix UI Documentation](https://www.radix-ui.com/docs/primitives/overview/introduction)
+- [ElevenLabs API Documentation](https://docs.elevenlabs.io/)
+- [Clerk Documentation](https://clerk.com/docs)
+- [Firebase Documentation](https://firebase.google.com/docs)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
+This application can be easily deployed on [Vercel](https://vercel.com/), the platform created by the makers of Next.js.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+For more information on deploying Next.js apps, check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contributing
+
+Contributions to LOOPGEN are welcome! Please feel free to submit issues or pull requests to help improve the application.
+
+## License
+
+[Add your chosen license here]
