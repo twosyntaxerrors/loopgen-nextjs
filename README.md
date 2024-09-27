@@ -1,6 +1,6 @@
 # LOOPGEN - AI-Powered Audio Generation Platform
 
-![LOOPGEN Landing Page](/Loopgen-Landing.png)
+![LOOPGEN Landing Page](public/Loopgen-Landing.png)
 
 LOOPGEN is a cutting-edge web application that leverages AI technology to generate custom audio samples, loops, and sounds. Built with Next.js, this platform offers a user-friendly interface for creating unique audio content for music production, sound design, and more.
 
